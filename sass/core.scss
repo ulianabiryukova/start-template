@@ -22,3 +22,51 @@ body {
 .wrap {
 	@include min-max(320px, 1140px, 15px);
 }
+
+
+//test html
+//по названию тега
+//div {
+//	background: pink;
+//}
+
+// по идетнифекатору (ид)
+//#myContainer1{
+//	background: green;
+//}
+
+// по названию класса
+//.container{
+//	background: aqua;
+//}
+
+// по нескольким классам
+//.container.con{
+//	background: green;
+//	padding: 5px;
+//}
+//
+//
+//.container.con > p {
+//	background: red;
+//	width: 50%;
+//}
+
+
+//.container.con{
+//	background: green;
+//	padding: 5px;
+//	p{
+//		background: red;
+//		width: 60%;
+//	}
+//}
+//
+//h3{
+//	background: lightblue;
+//	color: gold;
+//}
+//
+//div.relatedNews > div > ul > li:nth-child(2){
+//	background: red;
+//}
